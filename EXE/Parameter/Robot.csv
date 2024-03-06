@@ -1,0 +1,5 @@
+﻿==================================================
+Robot Parameter
+==================================================
+No,Enabled,LogEnabled,Log_File,LogEnabled_Process,Device,IP,Port,ConnectTimeout,ReceiveTimeout
+1,Use,Use,,Unused,DOOSAN,192.168.0.10,20002,1000,1000

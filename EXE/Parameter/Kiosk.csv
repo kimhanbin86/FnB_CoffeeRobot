@@ -1,0 +1,5 @@
+﻿==================================================
+Kiosk Parameter
+==================================================
+No,Enabled,LogEnabled,Log_File,Log_View,Device,IP,Port
+1,Use,Use,Kiosk,Unused,Kiosk,192.168.0.100,40110

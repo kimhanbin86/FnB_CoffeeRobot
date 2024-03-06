@@ -1,0 +1,5 @@
+﻿==================================================
+Controller2 Parameter
+==================================================
+No,Enabled,LogEnabled,Log_File,LogEnabled_Process,Device,PortName,BaudRate,Parity,DataBits,StopBits,Timeout
+1,Use,Use,,Unused,Controller2,COM3,9600,None,8,One,20000

@@ -1,0 +1,25 @@
+﻿==================================================
+Product Parameter
+==================================================
+No,Status,Product_Code,Product_Name,Little_Delay,Coffee_ID,Hot_Water_Timeout,Start_Delay,End_Delay,Cup,Milk,Ice_Time,Water_Time,Sauce_Type,Sauce_No,Pumping_Count,Mixing_Count,Product_Time,Remark
+1,NG,01-H,아메리카노-TAKEOUT,,1,16,22,2,Hot,Unused,,,Unused,Unused,,,60,
+2,NG,01-I,아메리카노-TAKEOUT (ICE),,2,,18,2,Ice,Unused,2,2.5,Unused,Unused,,,60,
+3,NG,02-H,아메리카노-TUMBLER,,3,16,30,2,Hot,Unused,,,Unused,Unused,,,60,
+4,NG,02-I,아메리카노-진한맛 (ICE),,5,,8,2,Ice,Unused,2,2.5,Unused,Unused,,,60,
+5,NG,04-H,카페라떼,,6,,,2,Hot,Use,,,Unused,Unused,,,60,
+6,NG,04-I,카페라떼 (ICE),,7,,12,2,Ice,Use,2,,Unused,Unused,,,60,
+7,NG,05-H,카프치노,,8,,,2,Hot,Use,,,Unused,Unused,,,60,
+8,NG,05-I,카프치노 (ICE),,9,,12,2,Ice,Use,2,,Unused,Unused,,,60,
+9,NG,06-H,카페모카,4,10,,,2,Hot,Use,,,Syrup,Sauce2,2,3,60,
+10,NG,06-I,카페모카 (ICE),4,11,,12,2,Ice,Use,2,,Syrup,Sauce2,2,3,60,
+11,NG,07-H,바닐라라떼,4,12,,,2,Hot,Use,,,Syrup,Sauce3,3,3,60,
+12,NG,07-I,바닐라라떼 (ICE),4,14,,12,2,Ice,Use,2,,Syrup,Sauce3,3,3,60,
+13,NG,08-H,카라멜마키야또,4,15,,52,2,Hot,Use,,,Syrup,Sauce1,1,3,60,
+14,NG,08-I,카라멜마키야또 (ICE),4,17,,58,2,Ice,Use,1.5,,Syrup,Sauce1,1,3,60,
+15,NG,17-H,초코밀크,4,18,,,24,Hot,Use,,,Syrup,Sauce2,2,3,60,
+16,NG,17-I,초코밀크 (ICE),4,19,,,20,Ice,Use,2,,Syrup,Sauce2,2,3,60,
+17,NG,18-H,카라멜밀크,4,20,,,24,Hot,Use,,,Syrup,Sauce1,1,3,60,
+18,NG,18-I,카라멜밀크 (ICE),4,21,,,20,Ice,Use,2,,Syrup,Sauce1,1,3,60,
+19,OK,21-I,자몽에이드,,,,,,Ice,Unused,2,2.5,Ade,Sauce4,2,,60,
+20,NG,22-I,레몬에이드,,,,,,Ice,Unused,2,2.5,Ade,Sauce5,2,,60,
+21,NG,23-I,청포도에이드,,,,,,Ice,Unused,2,2.5,Ade,Sauce6,2,,60,

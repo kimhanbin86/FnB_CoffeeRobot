@@ -1,0 +1,5 @@
+﻿==================================================
+DB Parameter
+==================================================
+No,Type,Server,Port,Database,Uid,Pwd,Connection_Timeout_sec
+1,MySQL,127.0.0.1,3306,Follettorobotics.HappyBones.Gen2,root,1234,1

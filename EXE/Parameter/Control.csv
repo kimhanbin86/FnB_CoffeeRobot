@@ -1,0 +1,87 @@
+﻿==================================================
+Control Parameter
+==================================================
+No,Control_Name,en_Font,en_Text,ko_Font,ko_Text,Visible
+1,grp_ControlPanel_CoffeeMaker,Tahoma/ 9pt,CoffeeMaker,맑은 고딕/ 9pt,커피 머신,Use
+2,btn_ControlPanel_CoffeeMaker_Start,Tahoma/ 9pt,Start,Tahoma/ 9pt,Start,Use
+3,btn_ControlPanel_CoffeeMaker_Rinse,Tahoma/ 9pt,Rinse,Tahoma/ 9pt,Rinse,Use
+4,title_ControlPanel_CoffeeMaker_Status,Tahoma/ 9pt,Status,Tahoma/ 9pt,Status,Use
+5,title_ControlPanel_CoffeeMaker_Action,Tahoma/ 9pt,Action,Tahoma/ 9pt,Action,Use
+6,title_ControlPanel_CoffeeMaker_Process,Tahoma/ 9pt,Process,Tahoma/ 9pt,Process,Use
+7,title_ControlPanel_CoffeeMaker_KeyId,Tahoma/ 9pt,KeyId,Tahoma/ 9pt,KeyId,Use
+8,title_ControlPanel_CoffeeMaker_Water,Tahoma/ 9pt,Water,Tahoma/ 9pt,Water,Use
+9,title_ControlPanel_CoffeeMaker_CoffeeMilkL,Tahoma/ 9pt,CoffeeMilkL,Tahoma/ 9pt,CoffeeMilkL,Use
+10,title_ControlPanel_CoffeeMaker_Warnings,Tahoma/ 9pt,Warnings,Tahoma/ 9pt,Warnings,Use
+11,title_ControlPanel_CoffeeMaker_Stops,Tahoma/ 9pt,Stops,Tahoma/ 9pt,Stops,Use
+12,title_ControlPanel_CoffeeMaker_Errors,Tahoma/ 9pt,Errors,Tahoma/ 9pt,Errors,Use
+13,title_ControlPanel_CoffeeMaker_Count,Tahoma/ 9pt,Count,Tahoma/ 9pt,Count,Use
+14,grp_ControlPanel_Robot,Tahoma/ 9pt,Robot,맑은 고딕/ 9pt,로봇,Use
+15,btn_ControlPanel_Robot_Stop,Tahoma/ 9pt,Stop,맑은 고딕/ 9pt,정지,Use
+16,btn_ControlPanel_Robot_Initialize,Tahoma/ 9pt,Initialize,맑은 고딕/ 9pt,초기화,Use
+17,btn_ControlPanel_Robot_Clean,Tahoma/ 9pt,Clean\r\nPose,맑은 고딕/ 9pt,세척\r\n자세,Use
+18,btn_ControlPanel_Robot_Maintenance,Tahoma/ 9pt,Maint.\r\nPose,맑은 고딕/ 9pt,유지보수\r\n자세,Use
+19,btn_ControlPanel_Robot_Control,Tahoma/ 9pt,Control,Tahoma/ 9pt,Control,Use
+20,btn_ControlPanel_Robot_Command,Tahoma/ 9pt,Command,Tahoma/ 9pt,Command,Use
+21,grp_ControlPanel_IceMaker,Tahoma/ 9pt,IceMaker,맑은 고딕/ 9pt,제빙기,Use
+22,title_ControlPanel_IceMaker_Time_Ice,Tahoma/ 9pt,Ice Time,맑은 고딕/ 9pt,얼음 시간,Use
+23,title_ControlPanel_IceMaker_Time_Water,Tahoma/ 9pt,Water Time,맑은 고딕/ 9pt,정수 시간,Use
+24,btn_ControlPanel_IceMaker_Start,Tahoma/ 9pt,Start,Tahoma/ 9pt,Start,Use
+25,btn_ControlPanel_IceMaker_Water,Tahoma/ 9pt,Water,맑은 고딕/ 9pt,탄산수,Unused
+26,title_ControlPanel_IceMaker_MachineCode,Tahoma/ 9pt,MachineCode,맑은 고딕/ 9pt,머신 코드,Use
+27,title_ControlPanel_IceMaker_ErrorCode,Tahoma/ 9pt,ErrorCode,맑은 고딕/ 9pt,오류 코드,Use
+28,grp_ControlPanel_Controller1,Tahoma/ 9pt,Controller1,맑은 고딕/ 9pt,컨트롤러1,Use
+29,grp_ControlPanel_Controller1_Door1,Tahoma/ 9pt,Door1,맑은 고딕/ 9pt,도어1,Use
+30,btn_ControlPanel_Controller1_Door1_Close,Tahoma/ 9pt,Close,맑은 고딕/ 9pt,닫기,Use
+31,btn_ControlPanel_Controller1_Door1_Open,Tahoma/ 9pt,Open,맑은 고딕/ 9pt,열기,Use
+32,btn_ControlPanel_Controller1_Door1_Lock,Tahoma/ 9pt,Lock,Tahoma/ 9pt,Lock,Use
+33,grp_ControlPanel_Controller1_Door2,Tahoma/ 9pt,Door2,맑은 고딕/ 9pt,도어2,Use
+34,btn_ControlPanel_Controller1_Door2_Close,Tahoma/ 9pt,Close,맑은 고딕/ 9pt,닫기,Use
+35,btn_ControlPanel_Controller1_Door2_Open,Tahoma/ 9pt,Open,맑은 고딕/ 9pt,열기,Use
+36,btn_ControlPanel_Controller1_Door2_Lock,Tahoma/ 9pt,Lock,Tahoma/ 9pt,Lock,Use
+37,grp_ControlPanel_Controller1_Door3,Tahoma/ 9pt,Door3,맑은 고딕/ 9pt,도어3,Use
+38,btn_ControlPanel_Controller1_Door3_Close,Tahoma/ 9pt,Close,맑은 고딕/ 9pt,닫기,Use
+39,btn_ControlPanel_Controller1_Door3_Open,Tahoma/ 9pt,Open,맑은 고딕/ 9pt,열기,Use
+40,btn_ControlPanel_Controller1_Door3_Lock,Tahoma/ 9pt,Lock,Tahoma/ 9pt,Lock,Use
+41,grp_ControlPanel_Controller1_Door4,Tahoma/ 9pt,Door4,맑은 고딕/ 9pt,도어4,Use
+42,btn_ControlPanel_Controller1_Door4_Close,Tahoma/ 9pt,Close,맑은 고딕/ 9pt,닫기,Use
+43,btn_ControlPanel_Controller1_Door4_Open,Tahoma/ 9pt,Open,맑은 고딕/ 9pt,열기,Use
+44,btn_ControlPanel_Controller1_Door4_Lock,Tahoma/ 9pt,Lock,Tahoma/ 9pt,Lock,Use
+45,btn_ControlPanel_Controller1_Door4_Tumbler_Home,Tahoma/ 9pt,Home,Tahoma/ 9pt,Home,Use
+46,btn_ControlPanel_Controller1_Door4_Tumbler_Ready,Tahoma/ 9pt,Ready,Tahoma/ 9pt,Ready,Use
+47,btn_ControlPanel_Controller1_Door4_Tumbler_Check,Tahoma/ 9pt,Check,Tahoma/ 9pt,Check,Use
+48,grp_ControlPanel_Controller2,Tahoma/ 9pt,Controller2,맑은 고딕/ 9pt,컨트롤러2,Use
+49,grp_ControlPanel_Controller2_Turn,Tahoma/ 9pt,Turn,맑은 고딕/ 9pt,회전,Use
+50,btn_ControlPanel_Controller2_Turn_Home,Tahoma/ 9pt,Home,맑은 고딕/ 9pt,홈,Use
+51,btn_ControlPanel_Controller2_Turn_Move,Tahoma/ 9pt,Move,맑은 고딕/ 9pt,이동,Use
+52,grp_ControlPanel_Controller2_Sauce,Tahoma/ 9pt,Sauce,맑은 고딕/ 9pt,소스,Use
+53,btn_ControlPanel_Controller2_Sauce_Home,Tahoma/ 9pt,Home,맑은 고딕/ 9pt,홈,Use
+54,btn_ControlPanel_Controller2_Sauce_Push,Tahoma/ 9pt,Push,맑은 고딕/ 9pt,푸시,Use
+55,btn_ControlPanel_Controller2_Sauce_Mix,Tahoma/ 9pt,Mix,맑은 고딕/ 9pt,믹싱,Use
+56,btn_ControlPanel_Controller2_Sauce_Both,Tahoma/ 9pt,Both,맑은 고딕/ 9pt,혼합,Unused
+57,grp_ControlPanel_Sensor,Tahoma/ 9pt,Sensor,맑은 고딕/ 9pt,센서,Use
+58,title_ControlPanel_Sensor_LM_Down,Tahoma/ 9pt,LM_Down,Tahoma/ 9pt,LM_Down,Use
+59,title_ControlPanel_Sensor_Cup1,Tahoma/ 9pt,Cup1,맑은 고딕/ 9pt,컵1,Use
+60,title_ControlPanel_Sensor_Cup2,Tahoma/ 9pt,Cup2,맑은 고딕/ 9pt,컵2,Use
+61,title_ControlPanel_Sensor_Cup3,Tahoma/ 9pt,Cup3,맑은 고딕/ 9pt,컵3,Use
+62,title_ControlPanel_Sensor_Cup4,Tahoma/ 9pt,Cup4,맑은 고딕/ 9pt,컵4,Use
+63,title_ControlPanel_Sensor_Milk,Tahoma/ 9pt,Milk,맑은 고딕/ 9pt,우유,Use
+64,title_ControlPanel_Sensor_NBox,Tahoma/ 9pt,NBox,맑은 고딕/ 9pt,넉박스,Use
+65,title_ControlPanel_Sensor_Sauce1,Tahoma/ 9pt,Sauce1,맑은 고딕/ 9pt,소스1,Use
+66,title_ControlPanel_Sensor_Sauce2,Tahoma/ 9pt,Sauce2,맑은 고딕/ 9pt,소스2,Use
+67,title_ControlPanel_Sensor_Sauce3,Tahoma/ 9pt,Sauce3,맑은 고딕/ 9pt,소스3,Use
+68,title_ControlPanel_Sensor_Sauce4,Tahoma/ 9pt,Sauce4,맑은 고딕/ 9pt,소스4,Use
+69,title_ControlPanel_Sensor_Sauce5,Tahoma/ 9pt,Sauce5,맑은 고딕/ 9pt,소스5,Use
+70,title_ControlPanel_Sensor_Sauce6,Tahoma/ 9pt,Sauce6,맑은 고딕/ 9pt,소스6,Use
+71,btn_ControlPanel_Product,Tahoma/ 9pt,Product,Tahoma/ 9pt,Product,Use
+72,btn_ControlPanel_Alarm,Tahoma/ 9pt,Alarm,맑은 고딕/ 9pt,알람,Use
+73,btn_ControlPanel_Initialize,Tahoma/ 9pt,System Init.,맑은 고딕/ 9pt,시스템 초기화,Use
+74,btn_ControlPanel_Clear,Tahoma/ 9pt,Order Clear,맑은 고딕/ 9pt,주문 취소,Use
+75,btn_ControlPanel_Exit,Tahoma/ 9pt,Exit,맑은 고딕/ 9pt,종료,Use
+76,Login_PW,Tahoma/ 18pt,PW,Tahoma/ 18pt,PW,Use
+77,btn_Login_OK,Tahoma/ 18pt,Login,맑은 고딕/ 18pt,로그인,Use
+78,btn_Login_Cancel,Tahoma/ 18pt,Cancel,맑은 고딕/ 18pt,취소,Use
+79,txt_Parameter_Description,Tahoma/ 10pt,,맑은 고딕/ 10pt,,Use
+80,btn_Parameter_Save,Tahoma/ 18pt,Save,맑은 고딕/ 18pt,저장,Use
+81,btn_Parameter_Test,Tahoma/ 18pt,Test,맑은 고딕/ 18pt,테스트,Unused
+82,btn_Parameter_Close,Tahoma/ 18pt,Close,맑은 고딕/ 18pt,닫기,Use
+83,btn_ControlPanel_CoffeeMaker_Milk,Tahoma/ 9pt,Milk,맑은 고딕/ 9pt,우유,Use

@@ -1,0 +1,5 @@
+﻿==================================================
+IceMaker Parameter
+==================================================
+No,Enabled,LogEnabled,Log_File,LogEnabled_Process,Device,PortName,BaudRate,Parity,DataBits,StopBits,Timeout
+1,Use,Use,,Unused,ICETRO,COM1,9600,None,8,One,1000

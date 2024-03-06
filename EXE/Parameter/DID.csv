@@ -1,0 +1,5 @@
+﻿==================================================
+DID Parameter
+==================================================
+No,Enabled,LogEnabled,Log_File,Thema,Message_1,Message_2,Process_Path,Process_Start_Delay,IP,Port,ConnectTimeout
+1,Unused,Unused,DID,Thema,1,2,,1000,127.0.0.1,13000,1000

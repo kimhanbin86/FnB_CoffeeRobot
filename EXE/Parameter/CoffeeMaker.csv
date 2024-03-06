@@ -1,0 +1,5 @@
+﻿==================================================
+CoffeeMaker Parameter
+==================================================
+No,Enabled,LogEnabled,Log_File,Device,PortName,Rinse_Interval_min,Ignore_Warnings
+1,Use,Use,,Eversys,COM4,5,WarnCoffeeMilkTankEmptyLft_e/WarnCoffeeHopperLevelLeft_e/WarnCoffeeHopperLevelRight_e

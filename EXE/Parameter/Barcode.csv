@@ -1,0 +1,5 @@
+﻿==================================================
+Barcode Parameter
+==================================================
+No,Enabled,LogEnabled,Log_File,Device,PortName,BaudRate,Parity,DataBits,StopBits
+1,Unused,Use,,Barcode,COM7,9600,None,8,One

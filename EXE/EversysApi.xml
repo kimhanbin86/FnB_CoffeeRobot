@@ -1,0 +1,2401 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EversysApi</name>
+    </assembly>
+    <members>
+        <member name="F:EversysApi.DataObject.ApiBlockedScreen.PictureName">
+            <summary>
+            Name of picture
+            </summary>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiBlockedScreen.ToArrayApi(Common.Utils.ArrayStreamWriter)">
+            <summary>
+            Converts the object to a byte array
+            </summary>
+            <param name="stream">target</param>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiBlockedScreen.FromArrayApi(Common.Utils.ArrayStreamReader)">
+            <summary>
+            Fills up the properties from a byte array
+            </summary>
+            <param name="stream">source</param>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiBreakPoints.Timeout">
+            <summary>
+            Timeout in seconds
+            </summary>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiBreakPoints.ToArrayApi(Common.Utils.ArrayStreamWriter)">
+            <summary>
+            Converts the object to a byte array
+            </summary>
+            <param name="stream">target</param>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiBreakPoints.FromArrayApi(Common.Utils.ArrayStreamReader)">
+            <summary>
+            Fills up the properties from a byte array
+            </summary>
+            <param name="stream">source</param>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiCustomScreen.ToArrayApi(Common.Utils.ArrayStreamWriter)">
+            <summary>
+            Converts the object to a byte array
+            </summary>
+            <param name="stream">target</param>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiCustomScreen.FromArrayApi(Common.Utils.ArrayStreamReader)">
+            <summary>
+            Fills up the properties from a byte array
+            </summary>
+            <param name="stream">source</param>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiDoSelectorProduct.IsEmpty">
+            <summary>
+            TRUE => an empty command is sent ( or was received )
+            do not consider the other data if this flag is set
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiDoSelectorProduct.ProdId">
+            <summary>
+            ID of Baseproduct
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiDoSelectorProduct.BeanHopper">
+            <summary>
+            Choosen Beanhopper
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiDoSelectorProduct.CakeThickness">
+            <summary>
+            Choosen Cakethickness
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiDoSelectorProduct.MilkSort">
+            <summary>
+            Choosen Milksort
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiDoSelectorProduct.MilkTemperature">
+            <summary>
+            Selected milk temperature
+            </summary>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiDoSelectorProduct.ToArrayApi(Common.Utils.ArrayStreamWriter)">
+            <summary>
+            Converts the object to a byte array
+            </summary>
+            <returns>byte array</returns>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiDoSelectorProduct.FromArrayApi(Common.Utils.ArrayStreamReader)">
+            <summary>
+            Fills up the properties from a byte array
+            </summary>
+            <param name="buffer">source</param>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiInfoMessages.Warnings">
+            <summary>
+            List with pending warnings
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiInfoMessages.Stops">
+            <summary>
+            List with pending stops
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiInfoMessages.Errors">
+            <summary>
+            List with pending errors
+            </summary>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiInfoMessages.ToArrayApi(Common.Utils.ArrayStreamWriter)">
+            <summary>
+            Converts the object to a byte array
+            </summary>
+            <param name="stream">target</param>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiInfoMessages.FromArrayApi(Common.Utils.ArrayStreamReader)">
+            <summary>
+            Fills up the properties from a byte array
+            </summary>
+            <param name="stream">source</param>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiMachineCounter.ToArrayApi(Common.Utils.ArrayStreamWriter)">
+            <summary>
+            Converts the object to a byte array
+            </summary>
+            <param name="stream">target</param>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiMachineCounter.FromArrayApi(Common.Utils.ArrayStreamReader)">
+            <summary>
+            Fills up the properties from a byte array
+            </summary>
+            <param name="stream">source</param>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiMilkOutletRinse.RinseMode">
+            <summary>
+            Requested rinse mode
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiMilkOutletRinse.BackRinseTime">
+            <summary>
+            Milk suction tube back rinse time in ms
+            </summary>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiMilkOutletRinse.ToArrayApi(Common.Utils.ArrayStreamWriter)">
+            <summary>
+            Converts the object to a byte array
+            </summary>
+            <param name="stream">target</param>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiMilkOutletRinse.FromArrayApi(Common.Utils.ArrayStreamReader)">
+            <summary>
+            Fills up the properties from a byte array
+            </summary>
+            <param name="stream">source</param>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiMonitorText.ToArrayApi(Common.Utils.ArrayStreamWriter)">
+            <summary>
+            Converts the object to a byte array
+            </summary>
+            <param name="stream">target</param>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiMonitorText.FromArrayApi(Common.Utils.ArrayStreamReader)">
+            <summary>
+            Fills up the properties from a byte array
+            </summary>
+            <param name="stream">source</param>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiOrder.ToArrayApi(Common.Utils.ArrayStreamWriter)">
+            <summary>
+            Converts the object to a byte array
+            </summary>
+            <param name="stream">target</param>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiOrder.FromArrayApi(Common.Utils.ArrayStreamReader)">
+            <summary>
+            Fills up the properties from a byte array
+            </summary>
+            <param name="stream">source</param>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.Date">
+            <summary>
+            Date when product was processed
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.Time">
+            <summary>
+            Time when product was processed
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.CakePressBefore">
+            <summary>
+            Cake press before position
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.CakePressAfter">
+            <summary>
+            Cake press after position
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.CakePressFinal">
+            <summary>
+            Cake press final position
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.CakePressHub">
+            <summary>
+            Cake press hub
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.Side">
+            <summary>
+            Left or right side
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.PowderQty">
+            <summary>
+            Quantity of coffee powder
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.PwdrQntyCtrl">
+            <summary>
+            Control of powder quantity
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.ExtractTime">
+            <summary>
+            Extracting time in 100ms steps
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.WaterQnty">
+            <summary>
+            Water quantity in ticks
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.WaterTemp">
+            <summary>
+            Watertemperatur in °C of boiler outlet
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.BoilerTemp">
+            <summary>
+            Temperatur in °C of boiler heating control
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.ProdType">
+            <summary>
+            Product type
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.ProductProcess">
+            <summary>
+            Related product process
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.DoubleProd">
+            <summary>
+            Single or double product
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.ProductKeyId">
+            <summary>
+            Product ID
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.BeanHopp">
+            <summary>
+            Related bean hopper
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.OutSide">
+            <summary>
+            Left or right side
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.ProdAbort">
+            <summary>
+            Reason for product abort
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.GrindAdjustLeft">
+            <summary>
+            Ticks position of left grinder wheels
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.GrindAdjustRight">
+            <summary>
+            Ticks position of right grinder wheels
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.RefExtractTime">
+            <summary>
+            Who controls the extraction time
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.WaterBrewPressure">
+            <summary>
+             water brew pressure in bar/10
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.WaterInputTemp">
+            <summary>
+            Water input temperatur in °C
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.CycleNumber">
+            <summary>
+            Current cycle number
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.LastCycle">
+            <summary>
+            in a multi cycle product this flag is set in the last cycle
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.MilkTemp">
+            <summary>
+            Milktemperature in °C
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.SteamPress">
+            <summary>
+            Steampressure in bar/10
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.MilkTime">
+            <summary>
+            Milk extraction time in 100ms steps for whole produt
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.VersionFlags">
+            <summary>
+            version flags, see API.ProcDumpVersion_t
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.MilkInputTemp">
+            <summary>
+            Milk input temperature in °C
+            \note can be ignored if API.ProcDumpVersion_t.MilkSequence_e bit is set in VersionFlags
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.MctStatus">
+            <summary>
+            Milk control status         
+            \note can be ignored if API.ProcDumpVersion_t.MilkSequence_e bit is set in VersionFlags
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.RpmFoam">
+            <summary>
+            rpm foam
+            \note can be ignored if API.ProcDumpVersion_t.MilkSequence_e bit is set in VersionFlags
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.RpmMilk">
+            <summary>
+            rpm milk
+            \note can be ignored if API.ProcDumpVersion_t.MilkSequence_e bit is set in VersionFlags
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.MctTempFoam">
+            <summary>
+            Foamtemperatur in °C
+            \note can be ignored if API.ProcDumpVersion_t.MilkSequence_e bit is set in VersionFlags
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.MctTempMilk">
+            <summary>
+            Milktempteratur in °C
+            \note can be ignored if API.ProcDumpVersion_t.MilkSequence_e bit is set in VersionFlags
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.MctTimeFoam">
+            <summary>
+            Foam extraction time in  100ms steps
+            \note can be ignored if API.ProcDumpVersion_t.MilkSequence_e bit is set in VersionFlags
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.MctTimeMilk">
+            <summary>
+            Milk extraction time in  100ms steps
+            \note can be ignored if API.ProcDumpVersion_t.MilkSequence_e bit is set in VersionFlags
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.AirQuantity">
+            <summary>
+            Airquantity in %
+            \note can be ignored if API.ProcDumpVersion_t.MilkSequence_e bit is set in VersionFlags
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.MilkSort">
+            <summary>
+            Used milk sort
+            \note can be ignored if API.ProcDumpVersion_t.MilkSequence_e bit is set in VersionFlags
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.strAirQuantity">
+            <summary>
+            Air quantity of all milksequences => use AirQuantityList to modify
+            \note can be ignored if API.ProcDumpVersion_t.MilkSequence_e bit is NOT set in VersionFlags
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.strMctTemp">
+            <summary>
+            mct temp of all milksequences => use MctTempList to modify
+            \note can be ignored if API.ProcDumpVersion_t.MilkSequence_e bit is NOT set in VersionFlags
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.strMctTime">
+            <summary>
+            mct time of all milksequences => use MctTimeList to modify
+            \note can be ignored if API.ProcDumpVersion_t.MilkSequence_e bit is NOT set in VersionFlags
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.strMilkSort">
+            <summary>
+            milk sorts of all milksequences => use MilkSortList to modify
+            \note can be ignored if API.ProcDumpVersion_t.MilkSequence_e bit is NOT set in VersionFlags
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.strRpm">
+            <summary>
+            rpm of all milksequences => use RpmList to modify
+            \note can be ignored if API.ProcDumpVersion_t.MilkSequence_e bit is NOT set in VersionFlags
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.strMctStatus">
+            <summary>
+            state of all milksequences => use MctStatusList to modify
+            \note can be ignored if API.ProcDumpVersion_t.MilkSequence_e bit is NOT set in VersionFlags
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.strMilkInputTemp">
+            <summary>
+            Temperature in °C of every milksequence => use MilkInputTempList to modify
+            \note can be ignored if API.ProcDumpVersion_t.MilkSequence_e bit is NOT set in VersionFlags
+            </summary>
+        </member>
+        <member name="P:EversysApi.DataObject.ApiProductDump.AirQuantityList">
+            <summary>
+            Air quantity in % of every milk sequence
+            </summary>
+        </member>
+        <member name="P:EversysApi.DataObject.ApiProductDump.MctTempList">
+            <summary>
+            Temperature in °C of every milk sequence
+            </summary>
+        </member>
+        <member name="P:EversysApi.DataObject.ApiProductDump.MctTimeList">
+            <summary>
+            Time in 100ms steps of every milk sequence
+            </summary>
+        </member>
+        <member name="P:EversysApi.DataObject.ApiProductDump.MilkSortList">
+            <summary>
+            Milk sort of every milk sequence
+            </summary>
+        </member>
+        <member name="P:EversysApi.DataObject.ApiProductDump.RpmList">
+            <summary>
+            rpm of every milk sequence
+            </summary>
+        </member>
+        <member name="P:EversysApi.DataObject.ApiProductDump.MctStatusList">
+            <summary>
+            status of every milk sequence
+            </summary>
+        </member>
+        <member name="P:EversysApi.DataObject.ApiProductDump.MilkInputTempList">
+            <summary>
+            Temperature in °C of every milk sequence
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.PowderUnitTime">
+            <summary>
+            Powder extration time in 100ms steps
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.PowderUnitWaterQuantity">
+            <summary>
+            Water quantity for powder extraction in ticks
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.PowderUnitQuantity">
+            <summary>
+            Powder quantity in gramm
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductDump.PowderUnitDispenser">
+            <summary>
+            Used powder dispenser
+            </summary>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiProductDump.ToArrayApi(Common.Utils.ArrayStreamWriter)">
+            <summary>
+            Converts the object to a byte array
+            </summary>
+            <returns>byte array</returns>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiProductDump.FromArrayApi(Common.Utils.ArrayStreamReader)">
+            <summary>
+            Fills up the properties from a byte array
+            </summary>
+            <param name="stream">source</param>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.Version_t.V1_18Bytes_e">
+            <summary>
+            V1 -> 18 Bytes length
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.Version_t.V2_30Bytes_e">
+            <summary>
+            V2 -> 30 Bytes length
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.Version_t.V3_32Bytes_e">
+            <summary>
+            V3 -> 32 Bytes length
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.Version_t.V4_35Bytes_e">
+            <summary>
+            V4 -> 35 Bytes length
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.Version_t.V5_36Bytes_e">
+            <summary>
+            V5 -> 36 Bytes length
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.Version_t.V6_38Bytes_e">
+            <summary>
+            V6 -> 38 Bytes length
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.Version">
+            <summary>
+            Version -> used to handle the different command lenghts
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.ProductType">
+            <summary>
+            Product type
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.ProductProcess">
+            <summary>
+            Related product process
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.WaterQnty">
+            <summary>
+            Water quantityt in ticks
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.HotWaterQnty">
+            <summary>
+            Hot water quantity in ticks, used for Americano
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.AmericanoSequence">
+            <summary>
+            Americano sequence
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.BeanHopper">
+            <summary>
+            Related bean hopper
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.CakeThickness">
+            <summary>
+            Cake thickness in mm/10 steps
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.PowderPress">
+            <summary>
+            Pressure of powder press
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.PrebrewTime">
+            <summary>
+            Prebrew time in 100ms steps
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.RelaxTime">
+            <summary>
+            Relax time in 100ms steps
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.PressAfter">
+            <summary>
+            Press after length in mm/10 steps
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.BypassQnty">
+            <summary>
+            Bypass quantity in %
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.MilkSort">
+            <summary>
+            milk sort
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.MilkQnty">
+            <summary>
+            Milk quantity in seconds
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.MilkTemp">
+            <summary>
+            Milktemperatur in °C
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.MilkPercent">
+            <summary>
+            Milk in %
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.ProductSequence">
+            <summary>
+            Product sequence type
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.MilkSequence">
+            <summary>
+            Deprectaed, Use ProductSequence instead
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.MilkDelayTime">
+            <summary>
+            Milk delay in seconds
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.LatteMacchTime">
+            <summary>
+            Latte macchiatto time in seconds
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.FoamSequence">
+            <summary>
+            Foam sequence type
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.MilkOutput">
+            <summary>
+            Milk output
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.SteamTime">
+            <summary>
+            Steam time in second
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.SteamTemp">
+            <summary>
+            Steamtemperature in °C
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.AirStopTemp">
+            <summary>
+            Air stop temperature in °C
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.AirStopTime">
+            <summary>
+            Air stop time in 100ms steps
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.AirQuantity">
+            <summary>
+            Air quantity in %
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.PumpSpeedMilk">
+            <summary>
+            Rpm milk
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.PumpSpeedFoam">
+            <summary>
+            rpm foam
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiProductParameter.EverfoamMode">
+            <summary>
+            Ever foam mode
+            </summary>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiProductParameter.ToArrayApi(Common.Utils.ArrayStreamWriter)">
+            <summary>
+            Converts the object to a byte array
+            </summary>
+            <param name="stream">target</param>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiProductParameter.FromArrayApi(Common.Utils.ArrayStreamReader)">
+            <summary>
+            Fills up the properties from a byte array
+            </summary>
+            <param name="stream">source</param>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiRequests.Requests">
+            <summary>
+            Pending CPU requests
+            </summary>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiRequests.ToArrayApi(Common.Utils.ArrayStreamWriter)">
+            <summary>
+            Converts the object to a byte array
+            </summary>
+            <param name="stream">target</param>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiRequests.FromArrayApi(Common.Utils.ArrayStreamReader)">
+            <summary>
+            Fills up the properties from a byte array
+            </summary>
+            <param name="stream">source</param>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiScreenRinse.Cycles">
+            <summary>
+            Duration in cycles 
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiScreenRinse.Repetitions">
+            <summary>
+            Repetitions
+            </summary>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiScreenRinse.ToArrayApi(Common.Utils.ArrayStreamWriter)">
+            <summary>
+            Converts the object to a byte array
+            </summary>
+            <param name="stream">target</param>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiScreenRinse.FromArrayApi(Common.Utils.ArrayStreamReader)">
+            <summary>
+            Fills up the properties from a byte array
+            </summary>
+            <param name="stream">source</param>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiSelectorProduct.ProdId">
+            <summary>
+            ID of Baseproduct
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiSelectorProduct.BeanHopper">
+            <summary>
+            Choosen Beanhopper
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiSelectorProduct.CakeThickness">
+            <summary>
+            Choosen Cakethickness in mm
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiSelectorProduct.MilkSort">
+            <summary>
+            Choosen Milksort
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiSelectorProduct.ProductNbr">
+            <summary>
+            Calculated Productnumber
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiSelectorProduct.ProductPrice">
+            <summary>
+            Calculated product price
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiSelectorProduct.MilkTemperature">
+            <summary>
+            Selected milk temperature in °C
+            </summary>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiSelectorProduct.ToArrayApi(Common.Utils.ArrayStreamWriter)">
+            <summary>
+            Converts the object to a byte array
+            </summary>
+            <param name="stream">target</param>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiSelectorProduct.FromArrayApi(Common.Utils.ArrayStreamReader)">
+            <summary>
+            Fills up the properties from a byte array
+            </summary>
+            <param name="stream">source</param>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiSensorValues.TempBoilerLeft">
+            <summary>
+            Temperature of left boiler in °C
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiSensorValues.TempBoilerRight">
+            <summary>
+            Temperature of right boiler in °C
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiSensorValues.SteamPressure">
+            <summary>
+            Pressure of steam boiler
+            </summary>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiSensorValues.ToArrayApi(Common.Utils.ArrayStreamWriter)">
+            <summary>
+            Converts the object to a byte array
+            </summary>
+            <param name="stream">target</param>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiSensorValues.FromArrayApi(Common.Utils.ArrayStreamReader)">
+            <summary>
+            Fills up the properties from a byte array
+            </summary>
+            <param name="stream">source</param>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiSerialNumber.Machine">
+            <summary>
+            Machine serial number (Main number)
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiSerialNumber.Cpu">
+            <summary>
+            CPU serial number
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiSerialNumber.PanelLeft">
+            <summary>
+            Serial number of left panel
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiSerialNumber.PanelRight">
+            <summary>
+            Serial Number of right panel
+            </summary>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiSerialNumber.ToArrayApi(Common.Utils.ArrayStreamWriter)">
+            <summary>
+            Converts the object to a byte array
+            </summary>
+            <param name="stream">target</param>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiSerialNumber.FromArrayApi(Common.Utils.ArrayStreamReader)">
+            <summary>
+            Fills up the properties from a byte array
+            </summary>
+            <param name="stream">source</param>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiStatus.MachineMode">
+            <summary>
+            Machine mode, use STA_MachineMode_t to check the states
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiStatus.CoffeeMilkL">
+            <summary>
+            Left coffee module
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiStatus.CoffeeMilkR">
+            <summary>
+            Right coffee module
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiStatus.SteamL">
+            <summary>
+            Left steam module
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiStatus.SteamR">
+            <summary>
+            Right steam module
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiStatus.Water">
+            <summary>
+            Water module
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiStatus.HasPendingSelectorProductLeft">
+            <summary>
+            True if there is a pending selector product on the left display
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiStatus.HasPendingSelectorProductRight">
+            <summary>
+            True if there is a pending selector product on the right display
+            </summary>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiStatus.ToArrayApi(Common.Utils.ArrayStreamWriter)">
+            <summary>
+            Converts the object to a byte array
+            </summary>
+            <param name="stream">target</param>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiStatus.FromArrayApi(Common.Utils.ArrayStreamReader)">
+            <summary>
+            Fills up the properties from a byte array
+            </summary>
+            <param name="stream">source</param>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiVersion.Major">
+            <summary>
+            major version
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiVersion.Minor">
+            <summary>
+            minor version
+            </summary>
+        </member>
+        <member name="F:EversysApi.DataObject.ApiVersion.Revision">
+            <summary>
+            revision
+            </summary>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiVersion.#ctor">
+            <summary>
+             Defaut constructor
+            </summary>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiVersion.#ctor(System.Byte,System.Byte,System.Byte)">
+            <summary>
+            Creates a new instance and set the properties in one
+            </summary>
+            <param name="major"></param>
+            <param name="minor"></param>
+            <param name="revision"></param>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiVersion.ToArrayApi(Common.Utils.ArrayStreamWriter)">
+            <summary>
+            Converts the object to a byte array
+            </summary>
+            <param name="stream">target</param>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiVersion.FromArrayApi(Common.Utils.ArrayStreamReader)">
+            <summary>
+            Fills up the properties from a byte array
+            </summary>
+            <param name="stream">source</param>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiVersion.ToString">
+            <summary>
+            Converts the version to string (major.minor.revision)
+            </summary>
+            <returns>Version in format x.x.x</returns>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiVersion.op_LessThan(EversysApi.DataObject.ApiVersion,EversysApi.DataObject.ApiVersion)">
+            <summary>
+            Check if version a is older than version b
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiVersion.op_GreaterThan(EversysApi.DataObject.ApiVersion,EversysApi.DataObject.ApiVersion)">
+            <summary>
+            Check if version a is newer than version b
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiVersion.op_GreaterThanOrEqual(EversysApi.DataObject.ApiVersion,EversysApi.DataObject.ApiVersion)">
+            <summary>
+            Check if version a is older than version b or equals
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiVersion.op_LessThanOrEqual(EversysApi.DataObject.ApiVersion,EversysApi.DataObject.ApiVersion)">
+            <summary>
+            Check if version a is newer than version b or equals
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EversysApi.DataObject.ApiVersion.ToValue">
+            <summary>
+            Converts the object properties to an integer value, which could be used to compare version easely.
+            </summary>
+            <returns>integer which represent the version</returns>
+        </member>
+        <member name="M:EversysApi.DataObject.BaseObject`1.CreateFromArrayApi(System.Byte[])">
+            <summary>
+            Fills up the properties from a byte array
+            </summary>
+            <param name="buffer">source</param>
+            <returns>new instance of requested object</returns>
+        </member>
+        <member name="T:EversysApi.Defines.ModuleId_t">
+            <summary>
+            Module ID
+            </summary>
+        </member>
+        <member name="F:EversysApi.Defines.ModuleId_t.Touch_e">
+            <summary>
+            Touch Serial Interface RS-232
+            </summary>
+        </member>
+        <member name="F:EversysApi.Defines.ModuleId_t.Api_e">
+            <summary>
+             API Remote Device
+            </summary>
+        </member>
+        <member name="T:EversysApi.Defines.Command_t">
+            <summary>
+            Mögliche API Kommandos
+            </summary>
+        </member>
+        <member name="T:EversysApi.Defines.ScreensaverState_t">
+            <summary>
+            Screensaver state
+            </summary>
+        </member>
+        <member name="T:EversysApi.Defines.DisplayAction_t">
+            <summary>
+            Dîfferent display actions
+            </summary>
+        </member>
+        <member name="T:EversysApi.Defines.MilkOutletRinseMode_t">
+            <summary>
+            Milk outlet rinse mode
+            </summary>
+        </member>
+        <member name="T:EversysApi.Defines.StopProcess_t">
+            <summary>
+            Defines which process to stop
+            </summary>
+        </member>
+        <member name="T:EversysApi.Defines.Time_t">
+            <summary>
+            Time in seconds, minutes and hours
+            </summary>
+        </member>
+        <member name="T:EversysApi.Defines.Date_t">
+            <summary>
+            Date in days, month and years(2 digits)
+            Specification Monh: January = 1, February = 2, ...
+            </summary>
+        </member>
+        <member name="T:EversysApi.Defines.Warning_t">
+            <summary>
+            Warnings definitions
+            </summary>
+        </member>
+        <member name="T:EversysApi.Defines.Stop_t">
+            <summary>
+            Stops definition
+            </summary>
+        </member>
+        <member name="T:EversysApi.Defines.Error_t">
+            <summary>
+            Errors definitions
+            </summary>
+        </member>
+        <member name="T:EversysApi.Defines.ProcSide_t">
+            <summary>
+            Process side
+            </summary>
+        </member>
+        <member name="T:EversysApi.Defines.AbortType_t">
+            <summary>
+            Product abort mode
+            </summary>
+        </member>
+        <member name="T:EversysApi.Defines.ProductType_t">
+            <summary>
+            Product type
+            </summary>
+        </member>
+        <member name="T:EversysApi.Defines.MilkTemp_t">
+            <summary>
+            Milk temperature mode
+            </summary>
+        </member>
+        <member name="T:EversysApi.Defines.ProductSequence_t">
+            <summary>
+            Mikl sequence mode
+            </summary>
+        </member>
+        <member name="T:EversysApi.Defines.MilkSequence_t">
+            <summary>
+            Deprectaed, Use ProductSequence_t instead
+            </summary>
+        </member>
+        <member name="T:EversysApi.Defines.ProductProcess_t">
+            <summary>
+            Product process
+            </summary>
+        </member>
+        <member name="T:EversysApi.Defines.AmericanoSequence_t">
+            <summary>
+            Americano sequence
+            </summary>
+        </member>
+        <member name="T:EversysApi.Defines.MilkOutput_t">
+            <summary>
+            Milk output
+            </summary>
+        </member>
+        <member name="T:EversysApi.Defines.FoamSequence_t">
+            <summary>
+            Foam sequence mode
+            </summary>
+        </member>
+        <member name="T:EversysApi.Defines.BeanHopper_t">
+            <summary>
+            Bean hopper
+            </summary>
+        </member>
+        <member name="T:EversysApi.Defines.RefExtractTime_t">
+            <summary>
+            Who is responsible for the extracting time control
+            </summary>
+        </member>
+        <member name="T:EversysApi.Defines.MilkSort_t">
+            <summary>
+            Milk sort
+            </summary>
+        </member>
+        <member name="T:EversysApi.Defines.EverfoamMode_t">
+            <summary>
+            Ever foam mode
+            </summary>
+        </member>
+        <member name="T:EversysApi.Defines.SpecialProductKeyID_t">
+            <summary>
+            Ordinary product key ID are from 1 - 48
+            All the other special productKeyId are listed below
+            </summary>
+        </member>
+        <member name="T:EversysApi.Defines.CpuRequest_t">
+            <summary>
+            CPU requests
+            </summary>
+        </member>
+        <member name="T:EversysApi.Defines.MachineStatus_t">
+            <summary>
+            Machine status bit
+            </summary>
+        </member>
+        <member name="T:EversysApi.Defines.ModuleStatus_t">
+            <summary>
+            Status
+            </summary>
+        </member>
+        <member name="T:EversysApi.Defines.ModuleProcess_t">
+            <summary>
+            Process type
+            </summary>
+        </member>
+        <member name="T:EversysApi.Defines.ModuleAction_t">
+            <summary>
+            Actions
+            </summary>
+        </member>
+        <member name="T:EversysApi.Defines.ExactCoffeeAction_t">
+            <summary>
+            Detailed Coffee ActionType
+            </summary>
+        </member>
+        <member name="T:EversysApi.Defines.ExactMilkAction_t">
+            <summary>
+            Detailed Milk Action
+            </summary>
+        </member>
+        <member name="T:EversysApi.Defines.OrderID_t">
+            <summary>
+            </summary>
+        </member>
+        <member name="F:EversysApi.Defines.ProcDumpVersion_t.MilkSequence_e">
+            <summary>
+            Depending on this flag the milksequences inside the ProductDump are provided different
+            ----------------------------
+            Flag is set
+            ----------------------------
+             - strAirQuantity (AirQuantityList)
+             - strMilkSort (MilkSortList)
+             - strRpm (RpmList)
+             - strMctTemp (MctTempList)
+             - strMctTime (MctTimeList)
+             - strMctStatus (MctStatusList)
+             - strMilkInputTemp (MilkInputTempList)
+             
+            ----------------------------
+            Flag is not set
+            ----------------------------
+             - RpmFoam
+             - RpmMilk
+             - MctTempFoam
+             - MctTempMilk
+             - MctTimeFoam
+             - MctTimeMilk
+             - AirQuantity
+             - MilkSort
+             - MctStatus
+             - MilkInputTemp
+             
+            </summary>
+        </member>
+        <member name="T:EversysApi.Defines.PowderUnitDispenser_t">
+            <summary>
+            Powder Dispenser
+            </summary>
+        </member>
+        <member name="T:EversysApi.Defines.MCT_Status_t">
+            <summary>
+            Milk control status
+            </summary>
+        </member>
+        <member name="M:EversysApi.Services.ILogger.Trace(System.String,System.Int32,System.String)">
+            <summary>
+            Trace message
+            </summary>
+            <param name="msg">Message</param>
+            <param name="lineNumber"></param>
+            <param name="file"></param>
+        </member>
+        <member name="M:EversysApi.Services.ILogger.Debug(System.String,System.Int32,System.String)">
+            <summary>
+            Debug message
+            </summary>
+            <param name="msg">Message</param>
+            <param name="lineNumber"></param>
+            <param name="file"></param>
+        </member>
+        <member name="M:EversysApi.Services.ILogger.Info(System.String,System.Int32,System.String)">
+            <summary>
+            Info message
+            </summary>
+            <param name="msg">Message</param>
+            <param name="lineNumber"></param>
+            <param name="file"></param>
+        </member>
+        <member name="M:EversysApi.Services.ILogger.Warning(System.String,System.Int32,System.String)">
+            <summary>
+            Warning message
+            </summary>
+            <param name="msg">Message</param>
+            <param name="lineNumber"></param>
+            <param name="file"></param>
+        </member>
+        <member name="M:EversysApi.Services.ILogger.Error(System.String,System.Int32,System.String)">
+            <summary>
+            Error message
+            </summary>
+            <param name="msg">Message</param>
+            <param name="lineNumber"></param>
+            <param name="file"></param>
+        </member>
+        <member name="M:EversysApi.Services.ILogger.Exception(System.Exception,System.Int32,System.String)">
+            <summary>
+            Exception
+            </summary>
+            <param name="ex">Exception</param>
+            <param name="lineNumber"></param>
+            <param name="file"></param>
+        </member>
+        <member name="M:EversysApi.Services.ApiFunctions.#ctor(EversysApi.Services.ISerialService,EversysApi.Services.IExchange)">
+            <summary>
+            Creates new 
+            </summary>
+            <param name="serialService"></param>
+            <param name="exchangeService"></param>
+        </member>
+        <member name="P:EversysApi.Services.ApiFunctions.TimeExtension">
+            <summary>
+            After every successful sent command, the system wait the set time in ms.
+            Otherwise you propably overwrite pending requests on the machine. 
+            With this settings you can handle the wait process in global.
+            </summary>
+        </member>
+        <member name="E:EversysApi.Services.ApiFunctions.TransmissionStart">
+            <summary>
+            Is called directly before the request is send to the machine
+            </summary>
+        </member>
+        <member name="E:EversysApi.Services.ApiFunctions.TransmissionEnd">
+            <summary>
+            Is called directly after the response from the machine is received or after the send process if no response is expected
+            </summary>
+        </member>
+        <member name="M:EversysApi.Services.ApiFunctions.Send(EversysApi.Defines.Command_t,System.UInt16,System.Byte[],System.String)">
+            <summary>
+            direct access to send functionality
+            </summary>
+            <param name="cmd"></param>
+            <param name="cmdParam"></param>
+            <param name="data"></param>
+            <param name="memberName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EversysApi.Services.ApiFunctions.SendAndGetResponse``1(``0@,EversysApi.Defines.Command_t,System.UInt16,System.Byte[],System.String)">
+            <summary>
+            direct access to send functionality  including response
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="resp"></param>
+            <param name="cmd"></param>
+            <param name="parameter"></param>
+            <param name="data"></param>
+            <param name="memberName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EversysApi.Services.ApiFunctions.GetVersion(EversysApi.DataObject.ApiVersion@)">
+            <summary>
+            Gets the machine e'API version
+            </summary>
+            <param name="resp">response</param>
+            <returns></returns>
+        </member>
+        <member name="M:EversysApi.Services.ApiFunctions.GetStatus(EversysApi.DataObject.ApiStatus@)">
+            <summary>
+            Gets the current status object
+            </summary>
+            <param name="resp">response</param>
+            <returns></returns>
+        </member>
+        <member name="M:EversysApi.Services.ApiFunctions.DoProduct(EversysApi.Defines.ProcSide_t,EversysApi.DataObject.ApiProductParameter)">
+            <summary>
+            launch a product
+            </summary>
+            <param name="side">left or right side</param>
+            <param name="product">product parameters</param>
+            <returns></returns>
+        </member>
+        <member name="M:EversysApi.Services.ApiFunctions.DoRinse(EversysApi.Defines.ProcSide_t)">
+            <summary>
+            Launch rinse process
+            </summary>
+            <param name="side">left or right side</param>
+            <returns></returns>
+        </member>
+        <member name="M:EversysApi.Services.ApiFunctions.DoStop(EversysApi.Defines.StopProcess_t)">
+            <summary>
+            Stop current processes
+            </summary>
+            <param name="stopProcess">select which process to stop</param>
+            <returns></returns>
+        </member>
+        <member name="M:EversysApi.Services.ApiFunctions.StartCleaning">
+            <summary>
+            start cleaning process
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EversysApi.Services.ApiFunctions.GetRequests(EversysApi.DataObject.ApiRequests@)">
+            <summary>
+            Gets the current pending CPU requests (Request which aren't sent yet to CPU)
+            </summary>
+            <param name="resp">response</param>
+            <returns></returns>
+        </member>
+        <member name="M:EversysApi.Services.ApiFunctions.DoMilkOutletRinse(EversysApi.Defines.ProcSide_t,EversysApi.DataObject.ApiMilkOutletRinse)">
+            <summary>
+            Lacunch milk outlet rinse process
+            </summary>
+            <param name="side">left or right side</param>
+            <param name="api">Specific detailed information</param>
+            <returns></returns>
+        </member>
+        <member name="M:EversysApi.Services.ApiFunctions.DoScreenRinse(EversysApi.Defines.ProcSide_t,EversysApi.DataObject.ApiScreenRinse)">
+            <summary>
+            Launch a screen rinse process
+            </summary>
+            <param name="side">left or right side</param>
+            <param name="api">detailed settings for the process</param>
+            <returns></returns>
+        </member>
+        <member name="M:EversysApi.Services.ApiFunctions.GetInfoMessages(EversysApi.DataObject.ApiInfoMessages@)">
+            <summary>
+            Gets the active warnings, stops and errors
+            </summary>
+            <param name="resp">response</param>
+            <returns></returns>
+        </member>
+        <member name="M:EversysApi.Services.ApiFunctions.DoDisplayAction(EversysApi.Defines.DisplayAction_t)">
+            <summary>
+            Do a specific display action
+            </summary>
+            <param name="displayAction">specific action</param>
+            <returns></returns>
+        </member>
+        <member name="M:EversysApi.Services.ApiFunctions.GetProductDump(EversysApi.DataObject.ApiProductDump@)">
+            <summary>
+            get the last product dump
+            </summary>
+            <param name="resp">response</param>
+            <returns></returns>
+        </member>
+        <member name="M:EversysApi.Services.ApiFunctions.GetSensorValues(EversysApi.DataObject.ApiSensorValues@)">
+            <summary>
+            Reads the current sensor values
+            </summary>
+            <param name="resp">response</param>
+            <returns></returns>
+        </member>
+        <member name="M:EversysApi.Services.ApiFunctions.DoEtcCalibration(EversysApi.Defines.ProcSide_t,EversysApi.Defines.BeanHopper_t)">
+            <summary>
+            Launch a Extracting Time Calibration process
+            </summary>
+            <param name="side">left or right side</param>
+            <param name="beanHopper">select beanhopper used for calibration </param>
+            <returns></returns>
+        </member>
+        <member name="M:EversysApi.Services.ApiFunctions.DoProductOfDisplay(EversysApi.Defines.ProcSide_t,System.Int32)">
+            <summary>
+            simulate a product press on the display
+            </summary>
+            <param name="side">left or right side</param>
+            <param name="productId">id of the selected product</param>
+            <returns></returns>
+        </member>
+        <member name="M:EversysApi.Services.ApiFunctions.GetProductParameters(EversysApi.DataObject.ApiProductParameter@,EversysApi.Defines.ProcSide_t,System.Int32)">
+            <summary>
+            gets the product parameters
+            </summary>
+            <param name="resp">response</param>
+            <param name="side">left or right side</param>
+            <param name="productId">id of the selected product</param>
+            <returns></returns>
+        </member>
+        <member name="M:EversysApi.Services.ApiFunctions.GetMachineCounters(EversysApi.DataObject.ApiMachineCounter@)">
+            <summary>
+            gets the machine counter values
+            </summary>
+            <param name="resp">response</param>
+            <returns></returns>
+        </member>
+        <member name="M:EversysApi.Services.ApiFunctions.ShowBlockedScreen(System.String)">
+            <summary>
+            Lay a picture over the existing display screen
+            </summary>
+            <param name="pictureName">path of picture</param>
+            <returns></returns>
+        </member>
+        <member name="M:EversysApi.Services.ApiFunctions.HideBlockedScreen">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EversysApi.Services.ApiFunctions.GetBlockedScreenState(EversysApi.Defines.ScreensaverState_t@)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EversysApi.Services.ApiFunctions.HideCustomScreen(EversysApi.Defines.ProcSide_t)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EversysApi.Services.ApiFunctions.GetCustomScreenState(System.Int32@)">
+            <summary>
+            Get the state of the custom screen
+            Bit 0: (1) custom screen on left panel is showed up, (0) no screen is showed up on left side
+            Bit 1: (1) custom screen on right panel is showed up, (0) no screen is showed up on right side
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EversysApi.Services.ApiFunctions.DoSelectorProduct(EversysApi.Defines.ProcSide_t)">
+            <summary>
+            Launches a pending selector Product
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EversysApi.Services.ApiFunctions.DoSelectorProduct(EversysApi.Defines.ProcSide_t,EversysApi.DataObject.ApiDoSelectorProduct)">
+            <summary>
+            Launches a selectorProduct depending on the provided data
+             - pending selector Product (If the user has choosen one at the display) => apiDoSelectorProduct.IsEmpty = true
+             - a independent with provided selector parameter (wthout an interaction on the display) => apiDoSelectorProduct.IsEmpty = false
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:EversysApi.Services.ApiFunctions.GetSelectorProduct(EversysApi.DataObject.ApiSelectorProduct@,EversysApi.Defines.ProcSide_t)">
+            <summary>
+            Gets a pending selector Product
+            </summary>
+            <returns>return NULL if no pending product exists</returns>
+        </member>
+        <member name="M:EversysApi.Services.ApiFunctions.GetSerialNumbers(EversysApi.DataObject.ApiSerialNumber@)">
+            <summary>
+            Collects all the serial numbers
+            </summary>
+            <param name="resp"></param>
+            <returns></returns>
+        </member>
+        <member name="E:EversysApi.Services.IExchange.ApplicationExit">
+            <summary>
+            Event must be fired on application exit
+            </summary>
+        </member>
+        <member name="P:EversysApi.Services.ISerialService.Baudrate">
+            <summary>
+            Baudrate
+            </summary>
+        </member>
+        <member name="P:EversysApi.Services.ISerialService.IsConnected">
+            <summary>
+            Check if the service has a serial connection
+            </summary>
+        </member>
+        <member name="P:EversysApi.Services.ISerialService.PortName">
+            <summary>
+            connected port name
+            </summary>
+        </member>
+        <member name="M:EversysApi.Services.ISerialService.Connect(System.String)">
+            <summary>
+            Open a connection to the requested port
+            </summary>
+            <param name="port">Portname like 'COM2'</param>
+            <returns>True if successful connected</returns>
+        </member>
+        <member name="M:EversysApi.Services.ISerialService.AutoConnect">
+            <summary>
+            Automatically connect to a COM port
+            </summary>
+            <returns>True if successfully connected</returns>
+        </member>
+        <member name="M:EversysApi.Services.ISerialService.Disconnect">
+            <summary>
+            Disconnect an open conenction
+            </summary>
+        </member>
+        <member name="M:EversysApi.Services.ISerialService.Send(EversysApi.Defines.Command_t,System.UInt16,System.Byte[])">
+            <summary>
+            Send data over serial connection
+            </summary>
+            <param name="cmd">Command</param>
+            <param name="cmdParam">parameter</param>
+            <param name="data">data</param>
+            <returns>True if successfully sent</returns>
+        </member>
+        <member name="M:EversysApi.Services.ISerialService.SendAndGetResponse(EversysApi.Defines.Command_t,System.UInt16,System.Byte[],EversysApi.Comm.SerialComm.Packet_t@)">
+            <summary>
+            Send data over serial connection and wait for a response
+            </summary>
+            <param name="cmd">Command</param>
+            <param name="cmdParam">parameter</param>
+            <param name="data">data</param>
+            <param name="packet">response</param>
+            <returns>True if successfully received a response</returns>
+        </member>
+        <member name="F:EversysApi.Services.SerialService.mutex">
+            <summary>
+            Mutex for serial connection protection
+            </summary>
+        </member>
+        <member name="P:EversysApi.Services.SerialService.Baudrate">
+            <summary>
+            Baudrate for serial connection, 115200 by default
+            </summary>
+        </member>
+        <member name="P:EversysApi.Services.SerialService.SourceAddress">
+            <summary>
+            Source Address for API communication, 0x40 by default
+            </summary>
+        </member>
+        <member name="P:EversysApi.Services.SerialService.IsConnected">
+            <summary>
+            Check if the connection is open
+            </summary>
+        </member>
+        <member name="P:EversysApi.Services.SerialService.PortName">
+            <summary>
+            returns the portname of the open connection
+            </summary>
+        </member>
+        <member name="P:EversysApi.Services.SerialService.CommFactory">
+            <summary>
+            Factory to create the API protocol service
+            </summary>
+        </member>
+        <member name="P:EversysApi.Services.SerialService.Comm">
+            <summary>
+            Serial connection
+            </summary>
+        </member>
+        <member name="P:EversysApi.Services.SerialService.ExchangeService">
+            <summary>
+            Exchange service
+            </summary>
+        </member>
+        <member name="M:EversysApi.Services.SerialService.#ctor(EversysApi.Services.ISerialPort,EversysApi.Services.IExchange)">
+            <summary>
+            Create new instance
+            </summary>
+            <param name="serialPort">Serial port implementation</param>
+            <param name="exchangeService">Optional</param>
+        </member>
+        <member name="M:EversysApi.Services.SerialService.AutoConnect">
+            <summary>
+            Automatically scans all available COM ports and check if there is an response to a GetStatus() request. if yes it will hold the connection open otherwise it tries with the next port
+            </summary>
+            <returns>TRUE if a GetStatusResponse was received on a port</returns>
+        </member>
+        <member name="M:EversysApi.Services.SerialService.Connect(System.String)">
+            <summary>
+            Connect to the requested COM port
+            </summary>
+            <param name="port">Portname like 'COM2'</param>
+            <returns>TRUE if the connectino was successfully opened</returns>
+        </member>
+        <member name="M:EversysApi.Services.SerialService.Disconnect">
+            <summary>
+            Close an open connection
+            </summary>
+        </member>
+        <member name="M:EversysApi.Services.SerialService.Dispose">
+            <summary>
+            Dispose this object
+            </summary>
+        </member>
+        <member name="M:EversysApi.Services.SerialService.Send(EversysApi.Defines.Command_t,System.UInt16,System.Byte[])">
+            <summary>
+            Send data over serial connection
+            </summary>
+            <param name="cmd">Command</param>
+            <param name="cmdParam">parameter</param>
+            <param name="data">data</param>
+            <returns>True if successfully sent</returns>
+        </member>
+        <member name="M:EversysApi.Services.SerialService.SendAndGetResponse(EversysApi.Defines.Command_t,System.UInt16,System.Byte[],EversysApi.Comm.SerialComm.Packet_t@)">
+            <summary>
+            Send data over serial connection and wait for a response
+            </summary>
+            <param name="cmd">Command</param>
+            <param name="cmdParam">parameter</param>
+            <param name="data">data</param>
+            <param name="packet">response</param>
+            <returns>True if successfully received a response</returns>
+        </member>
+        <member name="T:EversysApi.Services.ISerialPort">
+            <summary>
+            Platform- and framework-independent interface for serial port (RS232) communication.
+            
+            When using the .NET Framework (like version 4.7) we might implement this interface
+            using the "System.IO.Ports.SerialPort" class (where this interface is inspired by).
+            
+            When using UWP we might use the "Windows.Devices.SerialCommunication.SerialDevice" class instead.
+            
+            Implementing classes must always use no parity, eight data bits and one stop bit.
+            </summary>
+        </member>
+        <member name="M:EversysApi.Services.ISerialPort.GetPortNames">
+            <summary>
+            Gets the names of all available serial ports, like "COM1", "COM2"...
+            </summary>
+        </member>
+        <member name="M:EversysApi.Services.ISerialPort.Init(System.String,System.Int32)">
+            <summary>
+            Initializes the serial port with the given name and baud rate
+            and returns itself.
+            Call this method before using any of the following methods.
+            </summary>
+        </member>
+        <member name="P:EversysApi.Services.ISerialPort.IsOpen">
+            <summary>
+            Returns true, when the port is already open.
+            </summary>
+        </member>
+        <member name="M:EversysApi.Services.ISerialPort.Open">
+            <summary>
+            Opens the connection to the port.
+            </summary>
+        </member>
+        <member name="P:EversysApi.Services.ISerialPort.BaudRate">
+            <summary>
+            Gets or sets the serial baud rate.
+            Setting this property may be unsupported on some platforms and throw a <see cref="T:System.NotSupportedException"/>.
+            </summary>
+        </member>
+        <member name="P:EversysApi.Services.ISerialPort.PortName">
+            <summary>
+            Gets or sets the port for communications.
+            Setting this property may be unsupported on some platforms and throw a <see cref="T:System.NotSupportedException"/>.
+            </summary>
+        </member>
+        <member name="E:EversysApi.Services.ISerialPort.DataReceived">
+            <summary>
+            Occurs when the port received data.
+            Use the <see cref="M:EversysApi.Services.ISerialPort.Read(System.Byte[],System.Int32,System.Int32)"/> method to read the data.
+            </summary>
+        </member>
+        <member name="P:EversysApi.Services.ISerialPort.ReadBufferSize">
+            <summary>
+            Gets or sets the size of the input buffer in bytes.
+            Should be 4096 by default (default value from .NET Framework's "System.IO.Ports.SerialPort.ReadBufferSize").
+            </summary>
+        </member>
+        <member name="M:EversysApi.Services.ISerialPort.Read(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            Reads a number of bytes from the input buffer and writes
+            those bytes into a byte array at the specified offset.
+            </summary>
+        </member>
+        <member name="P:EversysApi.Services.ISerialPort.WriteBufferSize">
+            <summary>
+            Gets or sets the size of the output buffer in bytes.
+            Should be 2048 by default (default value from .NET Framework's "System.IO.Ports.SerialPort.WriteBufferSize").
+            </summary>
+        </member>
+        <member name="M:EversysApi.Services.ISerialPort.Write(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            Writes a specified number of bytes to the serial port using data from a buffer.
+            </summary>
+        </member>
+        <member name="M:EversysApi.Services.ISerialPort.Close">
+            <summary>
+            Closes the connection to the port.
+            </summary>
+        </member>
+        <member name="M:EversysApi.Comm.SerialComm.RegisterPacketSentHandler(EversysApi.Comm.SerialComm.PacketHandler)">
+            <summary>
+            Called when the Transmission was successfull
+            </summary>
+            <param name="handler">method with a parameter Packet_t</param>
+        </member>
+        <member name="M:EversysApi.Comm.SerialComm.RegisterPacketReceivedHandler(EversysApi.Comm.SerialComm.PacketHandler)">
+            <summary>
+            Called when a data or request packet was received.
+            </summary>
+            <param name="handler">method with a parameter Packet_t</param>
+        </member>
+        <member name="M:EversysApi.Comm.SerialComm.RegisterAckTimeoutHandler(EversysApi.Comm.SerialComm.PacketHandler)">
+            <summary>
+            Called when the machine didn't answer at all
+            </summary>
+            <param name="handler">method with a parameter Packet_t</param>
+        </member>
+        <member name="M:EversysApi.Comm.SerialComm.RegisterNackFailHandler(EversysApi.Comm.SerialComm.PacketHandler)">
+            <summary>
+            Called when the other machine received the packet but it wasn't correct. (interferences)
+            </summary>
+            <param name="handler">method with a parameter Packet_t</param>
+        </member>
+        <member name="M:EversysApi.Comm.SerialComm.RegisterResponseTimeoutHandler(EversysApi.Comm.SerialComm.PacketHandler)">
+            <summary>
+            Called when an ack but no response was received after a request.
+            </summary>
+            <param name="handler">method with a parameter Packet_t</param>
+        </member>
+        <member name="M:EversysApi.Comm.SerialComm.RegisterDataSentInterceptHandler(EversysApi.Comm.SerialComm.ByteArrayHandler)">
+            <summary>
+            Called everytime a packet was sent.
+            </summary>
+            <param name="handler">method with a parameter byte[]</param>
+        </member>
+        <member name="T:EversysApi.Comm.SerialComm.PacketType_t">
+            <summary>
+            Bit 0-2 in the PIE byte.
+            </summary>
+        </member>
+        <member name="T:EversysApi.Comm.SerialComm.ApplicationPort_t">
+            <summary>
+            Port ranges and what they are assigned to.
+            Bit 3-6 in the PIE byte.
+            </summary>
+        </member>
+        <member name="T:EversysApi.Comm.SerialComm.Encrypt_t">
+            <summary>
+            Defines if the packet is encrypted.
+            Bit 7 in the PIE byte.
+            </summary>
+        </member>
+        <member name="T:EversysApi.Comm.SerialComm.SpecialChars_t">
+            <summary>
+            Reserved and special characters
+            </summary>
+        </member>
+        <member name="T:EversysApi.Comm.SerialComm.Message_t">
+            <summary>
+            Data-header without the data length.
+            Contains the command id and the 16bit parameter value.
+            MI, MP[0:7], MP[8:15]
+            </summary>
+        </member>
+        <member name="T:EversysApi.Comm.SerialComm.RawPacket_t">
+            <summary>
+            Raw telegram packet with data-array and the data length. (including SOH and EOT)
+            Shifted character are still shifted.
+            </summary>
+        </member>
+        <member name="T:EversysApi.Comm.SerialComm.PacketCRC_t">
+            <summary>
+            CRC value; Byte CRC[0:7] and CRC[8:15]
+            </summary>
+        </member>
+        <member name="T:EversysApi.Comm.SerialComm.Packet_t">
+            <summary>
+            Telegram packet without SOH and EOT
+            isFail doesn't belong to the actual packet. It is used to tag length and crc fails.
+            </summary>
+        </member>
+        <member name="M:EversysApi.Comm.SerialComm.Packet_t.ToByteArray">
+            <summary>
+            Converts the packet to a byte array.
+            </summary>
+            <returns> packet as a byte array. With CRC, without EOT and SOH. Data is not shifted. </returns>
+        </member>
+        <member name="M:EversysApi.Comm.SerialComm.Packet_t.ToRawArray">
+            <summary>
+            Converts this packet to a byte array with shifted chars, SOH and EOT
+            </summary>
+            <returns>raw data array</returns>
+        </member>
+        <member name="P:EversysApi.Comm.SerialComm.Address">
+            <summary>
+            Address of this device.
+            </summary>
+        </member>
+        <member name="P:EversysApi.Comm.SerialComm.AckTimeout">
+            <summary>
+            Maximal timeout until an Ack/Nack is received.
+            </summary>
+        </member>
+        <member name="P:EversysApi.Comm.SerialComm.ResponseTimeout">
+            <summary>
+            Maximal timeout until a response is received.
+            </summary>
+        </member>
+        <member name="P:EversysApi.Comm.SerialComm.MaxSendRepetition">
+            <summary>
+            Maximal number of retries until an ack is received, without the initial attempt.
+            </summary>
+            <see cref="P:EversysApi.Comm.SerialComm.AckTimeout"/>
+        </member>
+        <member name="P:EversysApi.Comm.SerialComm.ThreadSleepTime">
+            <summary>
+            How long the thread will be inactive after every execution.
+            </summary>
+        </member>
+        <member name="P:EversysApi.Comm.SerialComm.MaxPacketSize">
+            <summary>
+            Maximal size of a packet in bytes.
+            </summary>
+        </member>
+        <member name="P:EversysApi.Comm.SerialComm.LastSentPacket">
+            <summary>
+            Last packet which was given to the EnqueuePacket method
+            </summary>
+        </member>
+        <member name="P:EversysApi.Comm.SerialComm.PortIsIdle">
+            <summary>
+            If the value is true then the port is currently not receiving or sending anything.
+            This value is used to safely terminate the used thread and close the port.
+            </summary>
+        </member>
+        <member name="P:EversysApi.Comm.SerialComm.PortIsOpen">
+            <summary>
+            True if the port is open.
+            </summary>
+        </member>
+        <member name="F:EversysApi.Comm.SerialComm.ReceiveOnlyMode">
+            <summary>
+            If this value is true nothing will be sent back.
+            </summary>
+        </member>
+        <member name="P:EversysApi.Comm.SerialComm.LastSequenceNumber">
+            <summary>
+            Sequence number of the last sent packet.
+            </summary>
+        </member>
+        <member name="F:EversysApi.Comm.SerialComm.lastAckCommand">
+            <summary>
+            Sequence number of the last incoming and acknowledged command
+            </summary>
+        </member>
+        <member name="F:EversysApi.Comm.SerialComm.ackTimeoutCounter">
+            <summary>
+            Counts Ack_e timeouts until it reaches MaxSendRepetition
+            </summary>
+        </member>
+        <member name="F:EversysApi.Comm.SerialComm.nackCounter">
+            <summary>
+            Counts Nacks until it reaches MaxSendRepetition
+            </summary>
+        </member>
+        <member name="F:EversysApi.Comm.SerialComm.sequenceNumber">
+            <summary>
+            This number increments after every new command/request; repetitions are with the same number.
+            </summary>
+        </member>
+        <member name="F:EversysApi.Comm.SerialComm.responseReceived">
+            <summary>
+            Flag; set when a request is in the queue and data with the same sequenceNumber was received.
+            </summary>
+        </member>
+        <member name="F:EversysApi.Comm.SerialComm.requestOpen">
+            <summary>
+            Flag; set when a request was sent but the response was not yet received
+            </summary>
+        </member>
+        <member name="F:EversysApi.Comm.SerialComm.incomingTimeStamp">
+            <summary>
+            Always set to the time when the last packet was received.
+            Used to prohibit the sending of a response or Ack/Nack after the timeout time was exceeded.
+            </summary>
+        </member>
+        <member name="F:EversysApi.Comm.SerialComm.rawDataBufferLength">
+            <summary>
+            Length of the rawDataBuffer array. (Number of filled fields rather than the array length).
+            </summary>
+        </member>
+        <member name="F:EversysApi.Comm.SerialComm.rawDataBuffer">
+            <summary>
+            Buffer to save the data which is received on the serial port. Its size equals MaxPacketSize.
+            </summary>
+        </member>
+        <member name="F:EversysApi.Comm.SerialComm.stopSerialPort">
+            <summary>
+            When this flag is set to true the Serialport will be closed as soon as the ongoing transmission is finished.
+            </summary>
+        </member>
+        <member name="F:EversysApi.Comm.SerialComm.PACKETHEADER_OFFSET">
+            <summary>
+            number of bytes in the packet-header(PIP+PIE+PN+SA+DA)
+            </summary>
+        </member>
+        <member name="F:EversysApi.Comm.SerialComm.DATAHEADER_OFFSET">
+            <summary>
+            number of bytes in the data-header(MI+MP+DL)
+            </summary>
+        </member>
+        <member name="F:EversysApi.Comm.SerialComm.HEADER_OFFSET">
+            <summary>
+            number of bytes in the packet and in the data-header(PIP+PIE+PN+SA+DA+MI+MP+DL)
+            </summary>
+        </member>
+        <member name="F:EversysApi.Comm.SerialComm.CRC_INIT">
+            <summary>
+            initial value for the crc calculation
+            </summary>
+        </member>
+        <member name="F:EversysApi.Comm.SerialComm.CRC_SIZE">
+            <summary>
+            size of the CRC in bytes
+            </summary>
+        </member>
+        <member name="F:EversysApi.Comm.SerialComm.PROTOCOL_VERSION">
+            <summary>
+            Protocol version. Should be incremented after every major release.
+            </summary>
+        </member>
+        <member name="F:EversysApi.Comm.SerialComm.crcPolynomTable">
+            <summary>
+            LUT for the CRC-16-IBM (x^16 + x^15 + x^2 + 1)
+            </summary>
+        </member>
+        <member name="M:EversysApi.Comm.SerialComm.#ctor(System.Byte,EversysApi.Services.ISerialPort)">
+            <summary>
+            Default values:
+            ThreadSleepTime = 1ms
+            MaxPacketSize = 256
+            SequenceNumber = 0
+            MaxSendRepetition = 3
+            Timeouts = 200ms
+            </summary>
+            <param name="address">ID of this device (source id)</param>
+            <param name="serialPort">serial port implementation</param>
+        </member>
+        <member name="M:EversysApi.Comm.SerialComm.Start">
+            <summary>
+            Opens the port and starts the thread.
+            </summary>
+        </member>
+        <member name="M:EversysApi.Comm.SerialComm.StartThread">
+            <summary>
+            Only starts the thread.
+            </summary>
+        </member>
+        <member name="M:EversysApi.Comm.SerialComm.Pause">
+            <summary>
+            Closes the Port but does not terminate the thread.
+            </summary>
+        </member>
+        <member name="M:EversysApi.Comm.SerialComm.EnqueuePacket(System.Byte,System.Byte,System.Byte)">
+            <summary>
+            Normaly this should not be used. Used to manually send an ack/nack or
+            to send a response with an undef command (unknown request)
+            data = null
+            data length = 0
+            isRequest = false
+            parity = 0
+            Encrypted = no
+            Application Port = Api_e
+            </summary>
+            <param name="destination"> destination of this packet as byte </param>
+            <param name="sequenzNr"> Sequence number which will be transmitted. Should only be set manually in a response. </param>
+            <param name="command"> Type of the Command see byte. used in the Message_t struct </param>
+        </member>
+        <member name="M:EversysApi.Comm.SerialComm.EnqueuePacket(System.Byte,EversysApi.Comm.SerialComm.Message_t,System.Byte[],System.UInt16)">
+            <summary>
+            Used to send a command.
+            isRequest = false
+            sequenceNumber = last Number + 1
+            parity = 0
+            Encrypted = no
+            Application Port = Api_e
+            </summary>
+            <param name="destination"> destination of this packet as byte </param>
+            <param name="message"> data-header w/o data length see Message_t </param>
+            <param name="data"> data as a byte array. The size of this array should equal dataLength </param>
+            <param name="dataLength"> how many data bytes will be sent </param>
+        </member>
+        <member name="M:EversysApi.Comm.SerialComm.EnqueuePacket(System.Byte,EversysApi.Comm.SerialComm.Message_t,System.Byte[],System.UInt16,System.Boolean)">
+            <summary>
+            Used to send a request.
+            sequenceNumber = last Number + 1
+            parity = 0
+            Encrypted = no
+            Application Port = Api_e
+            </summary>
+            <param name="destination"> destination of this packet as byte </param>
+            <param name="message"> data-header w/o data length see Message_t </param>
+            <param name="data"> data as a byte array. The size of this array should equal dataLength </param>
+            <param name="dataLength"> how many data bytes will be sent </param>
+            <param name="request"> true when this packet is a request, else false. </param>
+        </member>
+        <member name="M:EversysApi.Comm.SerialComm.EnqueuePacket(System.Byte,EversysApi.Comm.SerialComm.Message_t,System.Byte[],System.UInt16,System.Byte)">
+            <summary>
+            Used to send a response.
+            isRequest = false
+            parity = 0
+            Encrypted = no
+            Application Port = Api_e
+            </summary>
+            <param name="destination"> destination of this packet as byte </param>
+            <param name="message"> data-header w/o data length see Message_t </param>
+            <param name="data"> data as a byte array. The size of this array should equal dataLength </param>
+            <param name="dataLength"> how many data bytes will be sent </param>
+            <param name="sequenzNr"> Sequence number which will be transmitted. Should only be set manually in a response. </param>
+        </member>
+        <member name="M:EversysApi.Comm.SerialComm.EnqueuePacket(EversysApi.Comm.SerialComm.Packet_t)">
+            <summary>
+            Used to repeat a packet or to sent a custom packet.
+            </summary>
+            <param name="p"> Packet_t which will be sent </param>
+        </member>
+        <member name="M:EversysApi.Comm.SerialComm.EnqueuePacket(System.Byte,EversysApi.Comm.SerialComm.Message_t,System.Byte[],System.UInt16,System.Boolean,EversysApi.Comm.SerialComm.Encrypt_t,System.Byte,EversysApi.Comm.SerialComm.ApplicationPort_t,System.Byte)">
+            <summary>
+            Adds a packet to the send queue.
+            </summary>
+            <param name="destination"> destination of this packet as byte </param>
+            <param name="message"> data-header w/o data length see Message_t </param>
+            <param name="data"> data as a byte array. The size of this array should equal dataLength </param>
+            <param name="dataLength"> how many data bytes will be sent </param>
+            <param name="request"> true when this packet is a request, else false. </param>
+            <param name="sequenzNr"> Sequence number which will be transmitted. Should only be set manually in a response. </param>
+            <param name="appPort"> Application port which will be sent in the packet </param>
+            <param name="encrypted"> Is the Packet Encrypted </param>
+            <param name="parity"> Which parity does the packet have </param>
+        </member>
+        <member name="M:EversysApi.Comm.SerialComm.addRawData(System.Byte[],System.Int32)">
+            <summary>
+            This method is an alternate receive option.
+            </summary>
+            <param name="data">raw data</param>
+            <param name="length">length of the raw data</param>
+            <returns>true = successful, false = error occured</returns>
+        </member>
+        <member name="M:EversysApi.Comm.SerialComm.RevertShiftedChars(System.Byte[],System.Int32)">
+            <summary>
+            Reverts the shifted characters.
+            </summary>
+            <param name="data">raw data</param>
+            <param name="length">length of the raw data</param>
+            <returns>data array without shifted characters</returns>
+        </member>
+        <member name="M:EversysApi.Comm.SerialComm.Dispose">
+            <summary>
+            Aborts the thread and closes the port.
+            </summary>
+        </member>
+        <member name="M:EversysApi.Comm.SerialComm.NextSequenceNumber">
+            <summary>
+            Increments the sequence number and returns it.
+            </summary>
+            <returns>Next valid sequence number.</returns>
+        </member>
+        <member name="T:EversysApi.Comm.SerialComm.SendStates">
+            <summary>
+            States of the state-machine in TransmissionThreadWorker()
+            </summary>
+        </member>
+        <member name="M:EversysApi.Comm.SerialComm.TransmissionThreadWorker">
+            <summary>
+            Reads data from the serial ports and makes packets from the data.
+            Writes data to the serial port and manages the ack/nack.
+            </summary>
+        </member>
+        <member name="M:EversysApi.Comm.SerialComm.SendState(System.DateTime)">
+            <summary>
+            Checks if there is something to send and sends it.
+            </summary>
+        </member>
+        <member name="M:EversysApi.Comm.SerialComm.WaitingForAckState(System.DateTime)">
+            <summary>
+            Checks if an ack or a nack was received or if a ackTimeout occured.
+            </summary>
+        </member>
+        <member name="M:EversysApi.Comm.SerialComm.WaitingForResponseState(System.DateTime)">
+            <summary>
+            Checks if a response was received
+            </summary>
+        </member>
+        <member name="M:EversysApi.Comm.SerialComm.ProccessRawPacket">
+            <summary>
+            This method takes the raw packets and processes them.
+            Then it puts the packet in the DataQueue or in the AckQueue
+            </summary>
+        </member>
+        <member name="M:EversysApi.Comm.SerialComm.checkForReset(EversysApi.Comm.SerialComm.Packet_t,System.Boolean)">
+            <summary>
+            Checks the GetStatus response for the justReset bit. If it is set
+            the sequence number will be set to 0.
+            </summary>
+        </member>
+        <member name="M:EversysApi.Comm.SerialComm.IncomingDataQueueHandler">
+            <summary>
+            Sends the ack/nack packet, checks if the Data_e packet was a response (no ack/nack needed)
+            and calls the packetReceived callback
+            </summary>
+        </member>
+        <member name="M:EversysApi.Comm.SerialComm.WriteToPort(System.Byte[])">
+            <summary>
+            Writes the packet to the serial port.
+            </summary>
+            <param name="data">data from ToByteArray()</param>
+        </member>
+        <member name="M:EversysApi.Comm.SerialComm.ProcessToSend(System.Byte[])">
+            <summary>
+            Makes the Data ready to be sent to the port.
+            </summary>
+            <param name="data">data from ToByteArray()</param>
+            <returns>final byte array with SOH and EOT</returns>
+        </member>
+        <member name="M:EversysApi.Comm.SerialComm.DataReceivedHandler">
+            <summary>
+            Event handler for the serialport.DataReceived event.
+            It reads everything from the serialport and calls the ProcessRawData function.
+            </summary>
+        </member>
+        <member name="M:EversysApi.Comm.SerialComm.ProcessRawData(System.Byte[],System.Int32)">
+            <summary>
+            This method searches for a SOH and it will save the data after it.
+            Then it waits until it finds a EOT. If the MaxPacketSize was not exceeded,
+            then it will save the data with the SOH and EOT as a rawPacket in the IncomingRawQueue.
+            If the packet size grows over MaxPacketSize it will ignore the packet.
+            If there is still data after the EOT it will recursively call itself until there is no data left.
+            </summary>
+            <param name="buffer">data as byte array</param>
+            <param name="bytesRead">number of data bytes</param>
+        </member>
+        <member name="M:EversysApi.Comm.SerialComm.IsSpecialChar(System.Byte)">
+            <summary>
+            Checks for special character (shifted characters)
+            </summary>
+            <param name="c">to be checked character</param>
+            <returns>true/false</returns>
+        </member>
+        <member name="M:EversysApi.Comm.SerialComm.CalculateCRC(System.Byte[]@,System.Int32)">
+            <summary>
+            calculates the crc value with the crcPolynomTable
+            </summary>
+            <param name="data_p">reference to a byte array. the CRC will be calculated on this array.</param>
+            <param name="dataLength"> length of the array </param>
+            <returns> crc value as 16bit value </returns>
+        </member>
+        <member name="T:Common.Utils.TlvBaseEntry">
+            <summary>
+            Base Entry
+            </summary>
+        </member>
+        <member name="T:Common.Utils.TlvNumber">
+            <summary>
+            Number in tlv format
+            </summary>
+        </member>
+        <member name="F:Common.Utils.TlvNumber.value">
+            <summary>
+            Value
+            </summary>
+        </member>
+        <member name="F:Common.Utils.TlvNumber.valueLength">
+            <summary>
+            Length in bytes. Used for byteArrayConversion
+            </summary>
+        </member>
+        <member name="M:Common.Utils.TlvNumber.FromArray(System.Byte[])">
+            <summary>
+            Creates a TlvNumber entry
+            </summary>
+            <param name="buffer">raw data</param>
+            <returns>created TlvNumber entry</returns>
+        </member>
+        <member name="M:Common.Utils.TlvNumber.ToArray">
+            <summary>
+            Convert data to byte array
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Common.Utils.TlvText">
+            <summary>
+            String in Tlv format
+            </summary>
+        </member>
+        <member name="F:Common.Utils.TlvText.value">
+            <summary>
+            String
+            </summary>
+        </member>
+        <member name="M:Common.Utils.TlvText.FromArray(System.Byte[])">
+            <summary>
+            Creates a TlvText entry
+            </summary>
+            <param name="buffer">raw data</param>
+            <returns>created TlvText entry</returns>
+        </member>
+        <member name="M:Common.Utils.TlvText.ToArray">
+            <summary>
+            Convert data to byte array
+            </summary>
+            <returns>byte array</returns>
+        </member>
+        <member name="T:Common.Utils.TlvQrCode">
+            <summary>
+            QR Code object in Tlv format
+            </summary>
+        </member>
+        <member name="F:Common.Utils.TlvQrCode.content">
+            <summary>
+            Content of QR Code
+            </summary>
+        </member>
+        <member name="F:Common.Utils.TlvQrCode.width">
+            <summary>
+            Width in pixels (default:300)
+            </summary>
+        </member>
+        <member name="F:Common.Utils.TlvQrCode.height">
+            <summary>
+            Height in pixels (default:300)
+            </summary>
+        </member>
+        <member name="F:Common.Utils.TlvQrCode.posX">
+            <summary>
+            X position of left-top corner (default:250, min:0, max:800)
+            </summary>
+        </member>
+        <member name="F:Common.Utils.TlvQrCode.posY">
+            <summary>
+            Y position of left-top corner (default:150, min:0, max:600)
+            </summary>
+        </member>
+        <member name="M:Common.Utils.TlvQrCode.ToArray">
+            <summary>
+            Convert data to byte array
+            </summary>
+            <returns>byte array</returns>
+        </member>
+        <member name="M:Common.Utils.TlvQrCode.FromArray(System.Byte[])">
+            <summary>
+            Creates a TlvQrCode entry
+            </summary>
+            <param name="buffer">raw data</param>
+            <returns>created TlvQrCode entry</returns>
+        </member>
+        <member name="F:Common.Utils.TlvLabel.text">
+            <summary>
+            Text to display
+            </summary>
+        </member>
+        <member name="F:Common.Utils.TlvLabel.width">
+            <summary>
+            Width in pixels (default:300)
+            </summary>
+        </member>
+        <member name="F:Common.Utils.TlvLabel.height">
+            <summary>
+            Height in pixels (default:50)
+            </summary>
+        </member>
+        <member name="F:Common.Utils.TlvLabel.posX">
+            <summary>
+            X position of left-top corner (default:250, min:0, max:800)
+            </summary>
+        </member>
+        <member name="F:Common.Utils.TlvLabel.posY">
+            <summary>
+            Y position of left-top corner (default:470, min:0, max:600)
+            </summary>
+        </member>
+        <member name="F:Common.Utils.TlvLabel.fontSize">
+            <summary>
+            Font size (default: 12)
+            </summary>
+        </member>
+        <member name="F:Common.Utils.TlvLabel.fontStyle">
+            <summary>
+            font style: could be multiple of the following values (default:0)
+            1 = BOLD
+            2 = ITALIC
+            4 = UNDERLINE
+            8 = STRIKEOUT
+            </summary>
+        </member>
+        <member name="F:Common.Utils.TlvLabel.textAlign">
+            <summary>
+            Text alignmene (default:1)
+            1 = LEFT, 
+            2 = CENTER, 
+            4 = RIGHT
+            </summary>
+        </member>
+        <member name="F:Common.Utils.TlvLabel.foreColor">
+            <summary>
+            text color in format 0xRRGGBB (default:0xFFFFFF [white])
+            e.g. Blue => 0x0000FF
+            </summary>
+        </member>
+        <member name="F:Common.Utils.TlvLabel.backColor">
+            <summary>
+            background color in format 0xRRGGBB (default:0x000000 [black])
+            e.g. Yellow => 0xFFFF00
+            </summary>
+        </member>
+        <member name="F:Common.Utils.TlvLabel.backgroundImage">
+            <summary>
+            background image name
+            </summary>
+        </member>
+        <member name="P:Common.Utils.TlvUtil.Count">
+            <summary>
+            Number of elements in tlv struct
+            </summary>
+        </member>
+        <member name="M:Common.Utils.TlvUtil.Add(Common.Utils.TlvEntry)">
+            <summary>
+            Adds a new entry to the list
+            </summary>
+            <param name="entry">entry to add</param>
+        </member>
+        <member name="M:Common.Utils.TlvUtil.AddText(System.String)">
+            <summary>
+            Adds a new Text entry to the list
+            </summary>
+            <param name="text">Text to add</param>
+        </member>
+        <member name="M:Common.Utils.TlvUtil.AddNumber(System.Nullable{System.Int32})">
+            <summary>
+            Adds a new Number entry to the list
+            </summary>
+            <param name="number">Number to add</param>
+        </member>
+        <member name="M:Common.Utils.TlvUtil.AddNumber(System.Nullable{System.Int32},System.Int32)">
+            <summary>
+            Adds a new Number entry to the list
+            </summary>
+            <param name="number">Number to add</param>
+            <param name="valueLength">length of number in bytes</param>
+        </member>
+        <member name="M:Common.Utils.TlvUtil.Get(System.Int32)">
+            <summary>
+            Return a tlv entry or NULL
+            </summary>
+            <param name="index">index in TLV struct</param>
+            <returns>entry or NULL</returns>
+        </member>
+        <member name="M:Common.Utils.TlvUtil.GetNumber(System.Int32)">
+            <summary>
+            Return a number or NULL if entry isn't of type TlvType_t.Number_e  
+            </summary>
+            <param name="index">index in TLV struct</param>
+            <returns>Number or NULL</returns>
+        </member>
+        <member name="M:Common.Utils.TlvUtil.GetText(System.Int32)">
+            <summary>
+            Return a text or NULL if entry isn't of type TlvType_t.Text_e  
+            </summary>
+            <param name="index">index in TLV struct</param>
+            <returns>Text or NULL</returns>
+        </member>
+        <member name="M:Common.Utils.TlvUtil.ToArray">
+            <summary>
+            Convert data to byte array
+            </summary>
+            <returns>byte array</returns>
+        </member>
+        <member name="M:Common.Utils.TlvUtil.FromArray(System.Byte[])">
+            <summary>
+            Parse a byte array and fills up the members
+            </summary>
+            <param name="buffer">byte array</param>
+            <returns>byte array</returns>
+        </member>
+    </members>
+</doc>
